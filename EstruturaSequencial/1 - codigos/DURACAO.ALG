@@ -9,5 +9,5 @@ inicio
       min <- segundos \ 60
       segundos <- segundos % 60
       seg <- segundos
-      escreva(hora,":",min,":",seg)
+      escreva(hora, ":", min, ":", seg)
 fimalgoritmo

@@ -1,8 +1,7 @@
 algoritmo "pagamento"
 var
    nome: caractere
-   valHora, pagamento: real
-   horasTrabalhadas: inteiro
+   valHora, horasTrabalhadas, pagamento: real
 inicio
       escreva("Nome: ")
       leia(nome)
@@ -11,5 +10,5 @@ inicio
       escreva("Horas trabalhadas: ")
       leia(horasTrabalhadas)
       pagamento <- valHora * horasTrabalhadas
-      escreva("O pagamento para ", nome, " deve ser de ", pagamento:4:2)
+      escreva("O pagamento para ", nome, " deve ser de R$", pagamento:4:2)
 fimalgoritmo

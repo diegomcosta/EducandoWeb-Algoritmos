@@ -8,8 +8,8 @@ inicio
       leia(altura)
       area <- base * altura
       perimetro <- 2 * base + 2 * altura
-      diagonal <- ((base ^2) + (altura ^2)) ^0.5
-      escreval("AREA = ", area:2:4)
-      escreval("PERIMETRO = ", perimetro:2:4)
-      escreva("DIAGONAL = ", diagonal:2:4)
+      diagonal <- (base * base + altura * altura) ^ 0.5
+      escreval("AREA = ", area:4:4)
+      escreval("PERIMETRO = ", perimetro:4:4)
+      escreva("DIAGONAL = ", diagonal:4:4)
 fimalgoritmo
